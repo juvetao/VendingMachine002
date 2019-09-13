@@ -58,8 +58,8 @@ public class Main
             System.out.println("Please enter the product no. of the one you want to purchase");
             productNo = scanner.nextInt();
             purchase.request(productNo);
-            System.out.println("The product you purchase is: ");
-            System.out.println(purchase.getDescription(productNo));
+//            System.out.println("The product you purchase is: ");
+//            System.out.println(purchase.getDescription(productNo));
 
             System.out.println("Do you want to continue shopping? y/n");
             yesOrNo = scanner1.nextLine();

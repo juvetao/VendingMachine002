@@ -23,6 +23,8 @@ public class PurchaseInfo implements VendingMachine {
             if (product.getProductNumber() == productNumber) {
                 if (product.getPrice() <= moneyPool){
                     moneyPool -= product.getPrice();//****
+                    System.out.println("The product you purchase is: ");
+                    System.out.println(getDescription(productNumber));
                     return product;
                 }else
                     System.out.println("you must deposit money ");
